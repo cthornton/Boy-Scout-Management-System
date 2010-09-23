@@ -1,0 +1,39 @@
+.annContainer
+{
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.tContainer
+{
+    width: 85%;
+    border-bottom: 1px solid #99CC99;
+    margin-bottom: 3px;
+    font-size: 22px;
+
+    font-family: Georgia, serif;
+}
+
+.pContainer
+{
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 6px;
+}
+
+.cContainer
+{
+    font-size: 14px;
+}
+
+.hr
+{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #999999;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

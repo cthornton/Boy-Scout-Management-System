@@ -1,0 +1,132 @@
+#calendar td
+{
+    margin: 2px;
+    padding: 2px;
+}
+
+#calendar
+{
+    background: #AFDD88;
+}
+
+.calfootside
+{
+    float: left;
+    width: 210px;
+}
+
+.calfootmid
+{
+    float: left;
+    width: 300px;
+}
+
+.header td
+{
+    height: 20px;
+    width: 95px;
+    text-align: center;
+    font-weight: bold;
+    background: #4D9900 url('headerbg') bottom repeat-x;
+    border: 1px solid #6b9648;
+}
+
+.days td
+{
+    height: 94px;
+    width: 94px;
+}
+
+.d
+{
+    background: #a4e371 url('daybg.png') bottom repeat-x;
+    border: 1px solid #6b9648;
+    vertical-align: top;
+}
+
+.d:hover
+{
+    background: url('daybghover.png');
+}
+
+.today
+{
+    background: #a4e371 url('todaybg.png') bottom repeat-x;
+    border: 1px solid #6b9648;
+    vertical-align: top;  
+}
+
+.today:hover
+{
+    background: url('todaybghover.png') bottom repeat-x;
+}
+
+.n
+{
+    position: relative;
+    float: left;
+    position: absolute;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.d ul, .today ul
+{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 3px;
+}
+
+.d li, .today li
+{
+    font-size: 11px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+}
+
+.evdetails
+{
+    display: none;
+    width: 300px;
+    height: 150px;
+    padding: 4px;
+    border: 1px solid #333333;
+    background: #FFFFFF;
+}
+
+#calfooter
+{
+    margin-top: 10px;
+}
+
+.info
+{
+    visibility: hidden;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    background: #FFFFFF;
+    z-index: 3;
+    text-align: left;
+    font-size: 12px;
+    padding: 4px;
+    margin-left: 6px;
+    border: 1px solid #006600;
+    background: #CCFF99;
+    
+}
+
+.l
+{
+    color: #990000;
+}
+
+.editlink
+{
+    text-decoration: underline;
+    color: #0000CC;
+    font-weight: bold;
+}

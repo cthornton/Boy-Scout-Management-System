@@ -1,0 +1,20 @@
+#container
+{
+    width: 1001px;
+}
+
+#links
+{
+    margin-top: -1px;
+    width: 563px;
+}
+
+#left-menu ul {
+    list-style: disc;
+    margin-left: 12px;
+}
+
+.dropmenu
+{
+    margin-left: -100px;
+}

@@ -1,0 +1,49 @@
+td
+{
+    padding: 2px;
+    margin: 2px;
+}
+
+.header
+{
+    background: #4D9900;
+}
+
+
+.cell1
+{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.normalcell
+{
+    background: #9FCC66;
+}
+
+.pgs ul
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.pgs li
+{
+    list-style: none;
+}
+
+.invisible1
+{
+    width: 350px;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.invisible2
+{
+    width: 200px;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+}

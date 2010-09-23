@@ -1,0 +1,46 @@
+#content label
+{
+    width: 150px;
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#content input {
+    float: left;
+}
+
+#content textarea
+{
+    float: left;
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+#content select
+{
+    float: left;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.iesucks
+{
+    float: left;
+    width: 730px;
+    margin-bottom: 5px;
+}
+
+h3
+{
+    margin: 0px;
+    font-size: 15px;
+    margin-left: 160px;
+}
+
+.errtxt
+{
+    color: #990000;
+    font-weight: bold;
+}

@@ -1,0 +1,29 @@
+body
+{
+    margin: 25px;
+    font-family: Georgia, serif;
+    background: #CC0000;
+}
+
+#center
+{
+    width: 800px;
+    padding: 5px;
+    margin: auto;
+    border: 1px solid #333333;
+    background: #FFFFCC;
+}
+
+h1
+{
+    margin: 0px;
+    font-size: 30px;
+}
+
+pre
+{
+    padding: 4px;
+    border: 1px solid #DDDDDD;
+    background: #FFFFFF;
+    overflow: scroll;
+}

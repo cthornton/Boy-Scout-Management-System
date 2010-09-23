@@ -1,0 +1,17 @@
+.cats td
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 3px;
+    background: #66CC33;
+}
+
+.cats a
+{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: underline;
+}

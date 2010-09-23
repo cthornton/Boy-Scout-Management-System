@@ -1,0 +1,64 @@
+#content label
+{
+    width: 100px;
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#content input {
+    float: left;
+}
+
+#content textarea
+{
+    float: left;
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+#content select
+{
+    float: left;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.iesucks
+{
+    float: left;
+    width: 730px;
+    margin-bottom: 5px;
+}
+
+.inputbox
+{
+    width: 75%;
+}
+
+.txtinput
+{
+    width: 75%;
+    height: 100px;
+}
+
+.chkbx
+{
+    float: left;
+    margin-right: 10px;
+    margin-left: 3px;
+    text-align: left;
+    width: auto;
+}
+
+.chkcontain
+{
+    float: right;
+    width: 620px;
+}
+
+.chk
+{
+    float: left;
+}
