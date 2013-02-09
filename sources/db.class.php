@@ -146,13 +146,16 @@ class db
         
         foreach($params as $arr)
         {
-        	if(get_magic_quotes_gpc()) // Array values need to be by reference for PHP 5.3+
-            	$vals[] = &stripslashes($arr);
+        	if(get_magic_quotes_gpc())
+            	$vals[] = stripslashes($arr);
             else
-            	$vals[] = &$arr;
+            	$vals[] = $arr;
         }
         
-        call_user_func_array(array($this->stmt, 'bind_param'), $vals);
+        // Now we need to make it pass by ref for PHP 5.3+
+        $refArr = array();
+        foreach($vals as $k=>$v) $refArr[$k] = &$vals[$k];
+        call_user_func_array(array($this->stmt, 'bind_param'), $refArr);
     }
     
     /**
