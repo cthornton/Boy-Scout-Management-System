@@ -16,3 +16,7 @@ Other notes:
 * You might want to change the favicon under ui/img/favicon.png
 
 Have fun!
+
+## Live Sample
+You can view a live sample at [http://scoutmanager.cgthornt.com/](http://scoutmanager.cgthornt.com/) with
+a username/password combination of **admin/password**
