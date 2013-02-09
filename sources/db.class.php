@@ -146,10 +146,10 @@ class db
         
         foreach($params as $arr)
         {
-        	if(get_magic_quotes_gpc())
-            	$vals[] = stripslashes($arr);
+        	if(get_magic_quotes_gpc()) // Array values need to be by reference for PHP 5.3+
+            	$vals[] = &stripslashes($arr);
             else
-            	$vals[] = $arr;
+            	$vals[] = &$arr;
         }
         
         call_user_func_array(array($this->stmt, 'bind_param'), $vals);
