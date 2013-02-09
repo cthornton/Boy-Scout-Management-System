@@ -21,8 +21,8 @@ class auth
     {
         if(isset($_SESSION['uid']))
             return $_SESSION['uid'];
-        // else  // Was reviewing this code in 2013 for fun - this looks like a security flaw!
-        //    return $_COOKIE['uid'];
+        else  // Was reviewing this code in 2013 for fun - this looks like a security flaw!
+            return $_COOKIE['uid'];
     }
 
     /**
